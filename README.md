@@ -1,5 +1,7 @@
 # Cell_morphology_stats
 A python script to measure cell morphology features using phase contrast images.
+## Aim of the tool 
+The aim of this Python workflow is to quantify and compare key morphological features—specifically Length (Major Axis), Area, and Circularity—of cells captured via phase contrast microscopy images. This can be used to detect and measure phenotypic changes between experimental groups (e.g., control vs. treatment).
 ## How to use
 1. Use image editing software to simply adjust the brightness, contrast and sharpness of the original phase contrast photo (e.g. example_data/testwt.jpg) to black and white images (e.g. example_data/testwt2.jpg).
 2. Install required python modules
