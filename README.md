@@ -3,10 +3,12 @@ A python script to measure cell morphology features using phase contrast images.
 ## How to use
 1. Use image editing software to simply adjust the brightness, contrast and sharpness of the original phase contrast photo (e.g. example_data/testwt.jpg) to black and white images (e.g. example_data/testwt2.jpg).
 2. Install required python modules
+```
 pip install cv2
 pip install numpy
 pip install pandas
 pip install matplotlib
+```
 3. Run the jupyter notebook("Phase_contrast_photo_morphology.ipynb")
 Set configurations: use the adjusted image (e.g. example_data/testwt2.jpg) as input, and adjust the MIN_SIZE_THRESHOLD based on the final contors overlay results in the output (green lines dipicts cell outlines).
 4. Results description
