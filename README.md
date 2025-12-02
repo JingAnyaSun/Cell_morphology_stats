@@ -14,6 +14,7 @@ pip install matplotlib
 3. Run the jupyter notebook("Phase_contrast_photo_morphology.ipynb")
 Set configurations: use the adjusted image (e.g. example_data/testwt2.jpg) as input, and adjust the MIN_SIZE_THRESHOLD based on the final contors overlay results in the output (green lines dipicts cell outlines).
 4. Results description
+
 a. Area: the count of all pixels enclosed by the green line (unit, pixels^2);
 
 
