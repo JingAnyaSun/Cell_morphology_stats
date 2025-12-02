@@ -15,5 +15,8 @@ pip install matplotlib
 Set configurations: use the adjusted image (e.g. example_data/testwt2.jpg) as input, and adjust the MIN_SIZE_THRESHOLD based on the final contors overlay results in the output (green lines dipicts cell outlines).
 4. Results description
 a. Area: the count of all pixels enclosed by the green line (unit, pixels^2);
+
+
 b. Circularity: A ratio derived from the perimeter (length of the green line) and the enclosed area (4 * np.pi * area / (perimeter * perimeter). 
+
 c. Length: the longest distance between two points on the green outline (major axis of the fitted ellipse; unit: pixels). 
